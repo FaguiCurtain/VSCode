@@ -1,4 +1,7 @@
+redirects: on
 source https://www.nuget.org/api/v2
-nuget FAKE
+framework: >= net45
 nuget FSharp.Core
 nuget Deedle
+nuget Fake
+nuget FSharp.NET.Sdk
